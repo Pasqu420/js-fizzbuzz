@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script>
+
+      var num = 0;
+      var fizz;
+      var buzz;
+      var fizzBuzz;
+
+      for (var i = 0; i < 100; i++) {
+
+        num += 1;
+
+        fizz = num % 3 == 0;
+        buzz = num % 5 == 0;
+        fizzBuzz= (fizz) && (buzz);
+
+
+        if (fizzBuzz) {
+          console.log('fizzBuzz');
+
+        }else if (buzz) {
+          console.log('buzz');
+
+        } else if (fizz){
+          console.log("fizz");
+        }else {
+          console.log(num);
+        }
+      }
+
+    </script>
+
+  </body>
+</html>
