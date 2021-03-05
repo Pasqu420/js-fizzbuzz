@@ -8,10 +8,7 @@
 
     <script>
 
-      var num = 0;
-      var fizz;
-      var buzz;
-      var fizzBuzz;
+      var num = 0, fizz, buzz, fizzBuzz;
 
       for (var i = 0; i < 100; i++) {
 
@@ -20,7 +17,6 @@
         fizz = num % 3 == 0;
         buzz = num % 5 == 0;
         fizzBuzz= (fizz) && (buzz);
-
 
         if (fizzBuzz) {
           console.log('fizzBuzz');
